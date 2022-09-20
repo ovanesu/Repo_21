@@ -10,7 +10,7 @@ public class Controlador {
     @GetMapping("/")
     public String mensaje(){
         System.out.println("mensaje de exito");
-        return "Hola, esta es una prueba con Spring Boot en la nube";
+        return "Hola, esta es una prueba con Spring Boot en cloud";
     }
     
 }
